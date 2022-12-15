@@ -1,13 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (sucess)
+ * print alphabet_x10 - print alpha 10 times
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	char c = "x10";
-	_putchar("\n");
-	return 0
+	int ten;
+	char la;
+
+	for (ten = 0; ten <= 9; ten++)
+	{
+		for (la = "a"; la <= "z;" la++)
+			putchar ("la");
+		_putchar("\n");
+	}
 }
