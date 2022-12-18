@@ -2,8 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - prints exactly and that piece of art is useful
- *
+ * main - prints exactly "and that piece of art is useful"
+ * - Dora Korpar, 2015-10-19",
+ *   follow by a new line. to standard error.
  * Return: Always 0 (sucess)
  */
 
