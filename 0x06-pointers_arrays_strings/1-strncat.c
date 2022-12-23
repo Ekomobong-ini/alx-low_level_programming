@@ -1,30 +1,14 @@
-#include "maim.h"
+#include "main.h"
+#include <string.h>
 
 /**
- * _strncat - joins two strings n bytes
- * @dest: copy to
- * @src: copy from
- * @n: number of char to be copied
- * Return: dest
+ * _strncat -> function to append some charx
+ * @dest: first param
+ * @src: second param
+ * @n: 3rd param
+ * Return: string
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
-
-	int s;
-
-	i = 0;
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
-	s = 0;
-	while (s < n && src[s] != '\0')
-	{
-		dest[i] = src[s];
-		i++;
-		s++;
-	}
-	dest[i] = '\0';
+	strncat(*dest, *src, n);
 	return (dest);
-}
